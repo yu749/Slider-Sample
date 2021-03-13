@@ -15,6 +15,7 @@
 		4435817E25FCB81000040AC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4435817C25FCB81000040AC5 /* LaunchScreen.storyboard */; };
 		4435818925FCB81000040AC5 /* Slider_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435818825FCB81000040AC5 /* Slider_SampleTests.swift */; };
 		4435819425FCB81000040AC5 /* Slider_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4435819325FCB81000040AC5 /* Slider_SampleUITests.swift */; };
+		443581B225FCBF2000040AC5 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443581B125FCBF2000040AC5 /* SliderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4435818F25FCB81000040AC5 /* Slider SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Slider SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4435819325FCB81000040AC5 /* Slider_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider_SampleUITests.swift; sourceTree = "<group>"; };
 		4435819525FCB81000040AC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443581B125FCBF2000040AC5 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				4435817325FCB80E00040AC5 /* SceneDelegate.swift */,
 				4435817525FCB80E00040AC5 /* ViewController.swift */,
 				4435817725FCB80E00040AC5 /* Main.storyboard */,
+				443581B125FCBF2000040AC5 /* SliderCell.swift */,
 				4435817A25FCB81000040AC5 /* Assets.xcassets */,
 				4435817C25FCB81000040AC5 /* LaunchScreen.storyboard */,
 				4435817F25FCB81000040AC5 /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				4435817625FCB80E00040AC5 /* ViewController.swift in Sources */,
 				4435817225FCB80E00040AC5 /* AppDelegate.swift in Sources */,
+				443581B225FCBF2000040AC5 /* SliderCell.swift in Sources */,
 				4435817425FCB80E00040AC5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
