@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         collectionView.delegate = self
+        collectionView.register(SliderCell.self, forCellWithReuseIdentifier: "SliderCell") 
         collectionView.dataSource = self
         pageControl.numberOfPages = imageArr.count
         

@@ -36,14 +36,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fCz-1x-UDC">
-                                                    <rect key="frame" x="-56" y="0.0" width="240" height="128"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="170" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="170" height="128"/>
                                         <connections>
-                                            <outlet property="imgView" destination="fCz-1x-UDC" id="27t-pk-QKp"/>
+                                            <outlet property="imgView" destination="fCz-1x-UDC" id="Ezx-1L-PPJ"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
